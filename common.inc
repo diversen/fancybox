@@ -1,7 +1,7 @@
 <?php
 
 function fancybox_include () {
-    template::setCss('/templates/fancybox/jquery.fancybox-1.3.4.css', 30);
-    template::setJs("/templates/fancybox/jquery.fancybox-1.3.4.pack.js", 30);
-    template::setInlineJs(_COS_MOD_PATH . '/gallery/fancybox.js');
+    template::setCss('/templates/fancybox/source/jquery.fancybox.css', 30);
+    template::setJs("/templates/fancybox/source/jquery.fancybox.js", 30, array ('head' => true));
+    
 }
