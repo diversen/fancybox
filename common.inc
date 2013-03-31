@@ -1,7 +1,9 @@
 <?php
 
 function fancybox_include () {
-    template::setNoCacheCss('/templates/fancybox/source/jquery.fancybox.css', 30);
-    template::setJs("/templates/fancybox/source/jquery.fancybox.js", 30, array ('head' => true));
+    
+    // no cache css - as we just keep the orginal image paths.
+    template::setNoCacheCss('/templates/fancybox/source/jquery.fancybox.css');
+    template::setJs("/templates/fancybox/source/jquery.fancybox.js", null, array ('head' => true));
     
 }
