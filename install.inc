@@ -5,7 +5,7 @@
  *
  * @package    modules
  */
-$_INSTALL['VERSION'] = 1.91;
+$_INSTALL['VERSION'] = 2.1;
 
 $_INSTALL['PUBLIC_CLONE_URL'] = 'git://github.com/diversen/fancybox.git';
 $_INSTALL['PRIVATE_CLONE_URL'] = 'git@github.com:diversen/fancybox.git';
