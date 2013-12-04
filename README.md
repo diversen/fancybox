@@ -1,16 +1,16 @@
-### fancybox
+### Deprecated
 
-Deprecated. As the CosCMS is able to enable other repos as source we will just use orginal repo as clone source for now on. 
+As the CosCMS is able to enable other repos as source we will just use the orginal repo as clone url from now on. 
 
 This means we just use: 
 
-https://github.com/fancyapps/fancyBox
+    git://github.com/fancyapps/fancyBox.git
 
-in build profiles that uses the jquery fancybox extension. 
+In build profiles that uses the jquery fancybox extension. 
 
-In this manner you can now add any remo git repo to a build profile. 
+In this manner you can now add any remot git repo to a build profile. 
 
-In order to incorporate the fancyBox and load css and js this function is all you need: 
+In order to incorporate the fancyBox and load css and js you will need something like this: 
 
     function fancybox_include () {
 
