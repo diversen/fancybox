@@ -6,9 +6,15 @@ This means we just use:
 
     git://github.com/fancyapps/fancyBox.git
 
-In build profiles that uses the jquery fancybox extension. 
+Install it: 
 
-In this manner you can now add any remot git repo to a build profile. 
+    ./coscli.sh git --temp-in git://github.com/fancyapps/fancyBox.git
+    
+Then it is placed along all other html / js templates
+
+This will also work if you make a build profile. 
+
+In this manner you can now add any remote git repo to a build profile. 
 
 In order to incorporate the fancyBox and load css and js you will need something like this: 
 
